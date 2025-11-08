@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+	<h1>--ADD STUDENT--</h1>
+	<form action="StudentAddServlet" method="get">
+		Id : <input type="text" name="id"> <br> NAME : <input
+			type="text" name="name"> <br> MARKS : <input type="text"
+			name="marks"> <br> <input type="submit" value="SAVE">
+	</form>
+
+	<hr>
+	<h1>--UPADTE STUDENT--</h1>
+	<form action="StudentUpdateServlet" method="get">
+		Id : <input type="text" name="id"> <br> NAME : <input
+			type="text" name="name"> <br> MARKS : <input type="text"
+			name="marks"> <br> <input type="submit" value="UPADTE">
+	</form>
+
+	<hr>
+	<h1>--DELETE STUDENT--</h1>
+	<form action="StudentDeleteServlet" method="get">
+		Id : <input type="text" name="id"> <br> <input
+			type="submit" value="DELETE">
+	</form>
+
+	<hr>
+
+	<h1>
+		<a href="StudentReadServlet">SHOW ALL</a>
+	</h1>
+
+
+</body>
+</html>
