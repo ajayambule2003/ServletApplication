@@ -28,7 +28,7 @@ public class StudentReadServlet extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 
-		StudentDAO dao = new StudentDAOImpl();
+		StudentDAO dao = new StudentDAOImpl(); 
 
 		List<Student> studList = dao.getAllStudents();
 

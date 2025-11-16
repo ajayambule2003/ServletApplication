@@ -30,6 +30,10 @@ public class StudentUpdateForm extends HttpServlet {
 
 		StudentDAO dao = new StudentDAOImpl();
 		Student student = dao.findStudentById(id);
+		
+		out.print("<head>");
+		out.print("<link rel='stylesheet' href='css/update.css'>");
+		out.print("</head>");
 
 		out.print("<form action='StudentUpdateServlet' method='get'>");
 		
